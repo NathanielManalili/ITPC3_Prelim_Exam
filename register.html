@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <style>
+         #divC{
+            text-align: center;
+        }
+        .inputs{
+            color: black;
+            background-color: aliceblue;
+            color: black;
+            font-size: medium;
+            background-color: antiquewhite;
+        }
+        .button:hover{
+            cursor: pointer;
+            background-color: bisque;
+            font-size: medium;
+        }
+    </style>
 </head>
 <body>
-    <div>
+    <div id="divC">
         <h1>Registration Page</h1>
         <div>
             <br>
-            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Username" class="inputs">
         </div>
         <div>
             <br>
-            <input type="password" placeholder="Password">
+            <input type="password" placeholder="Password" class="inputs">
         </div>
         <div>
             <br>
-            <input type="password" placeholder="Confirm Password">
+            <input type="password" placeholder="Confirm Password" class="inputs">
         </div>
         <div>
             <br>
-            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="First Name" class="inputs">
         </div>
         <div>
             <br>
-            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Last Name" class="inputs">
         </div>
         <div>
             <br>
-            <button>Cancel</button>
-            <button>Register</button>
+            <button class="button">Cancel</button>
+            <button class="button">Register</button>
         </div>
     </div>
 </body>
